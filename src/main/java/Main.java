@@ -28,7 +28,7 @@ class CarRace {
     // Метод объявлния победителя, если поле не пустое
     public void displayWinner() {
         if (!leadingCar.isEmpty()) {
-            System.out.println(String.format("Наш победитель '%s' проехал дистанцию '%d' км", leadingCar, maxDistance));
+            System.out.println("Наш победитель " + leadingCar + " проехал дистанцию " + maxDistance + " км");
         } else {
             System.out.println("Нет данных о победителе.");
         }
